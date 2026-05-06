@@ -3,16 +3,10 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .hero-home {
-    background: linear-gradient(135deg, #b30000, #800000);
-    color: white;
-    text-align: center;
-    padding: 120px 20px;
-    min-height: 70vh;
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .hero-home h2 {
@@ -25,9 +19,6 @@ body {
     margin-bottom: 20px;
 }
 
-header h1 {
-    margin: 0;
-}
 
 header {
     background: #ff0202;
@@ -136,12 +127,13 @@ footer {
     padding: 10px;
 }
 
-    .hero-home {
+    .hero {
     background: linear-gradient(135deg, #b30000, #800000);
     color: white;
-    text-align: center;
-    padding: 60px;
+    text-align: left;
+    padding: 60px ;
 }
+
 .sobre-container {
     padding: 40px;
     max-width: 900px;
